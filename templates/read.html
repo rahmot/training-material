@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Read </title>
+    <link rel="stylesheet" href="static/css/read.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body> 
+    
+    <nav>
+
+        <div class="container">
+            <h1 class="logo">GET READY TO REVIDALIZE</h1>
+            <strong>
+                <nauv>
+                    <u1 class="nav-links">
+                        <li><a href="{{ url_for('home')}}">Home</a></li>
+                        <li><a href="{{ url_for('about')}}">About</a></li>
+                        <li><a href="{{ url_for('contact')}}">Contact</a></li>
+
+                    </u1>
+                </nauv>
+            </strong>
+        </div>
+    </nav>
+    
+    <div style="display:flex">
+        <img src="static/images/book.png" alt="An icon of a book" id="title_image">
+        <h1 id="central_text"> Read </h1>
+        <img src="static/images/book.png" alt="An icon of a book" id="title_image">
+    </div>
+    <div id="background_box">
+        <h1 id="story_title"> {{title}} </h1>
+        <p id=story_text>
+        {{story}}
+        </p>
+    </div>
+</body>
+</html>
