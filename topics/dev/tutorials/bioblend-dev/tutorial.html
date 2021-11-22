@@ -49,6 +49,41 @@
                         </a>
                         
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Languages">
+                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Languages
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            
+                              <strong class="dropdown-header">Automatic Translations</strong>
+            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
+                            Français
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
+                            日本語
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
+                            Español
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
+                            Português
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
+                            العربية
+                            </a>
+                            
+                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url" title="">
+                            And more!
+                            </a>
+                        </div>
+                    </li>
+
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
@@ -104,41 +139,6 @@
                 <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
             </a>
         
-
-        <div class="dropdown-item">
-            <div>
-                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
-            </div>
-
-            <div id="lang-selector">
-                
-                <strong>Automatic Translations</strong>
-
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
-                Français
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
-                日本語
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
-                Español
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
-                Português
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/dev/tutorials/bioblend-dev/tutorial.html&edit-text=&act=url">
-                العربية
-                </a>
-                
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fdev%2Ftutorials%2Fbioblend-dev%2Ftutorial.html&edit-text=&act=url" title="">
-                And more!
-                </a>
-            </div>
-        </div>
 
         <div class="dropdown-item">
             <div>
@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "2021-06-16 07:31:22 +0000",
+  "dateModified": "1970-01-01 00:33:41 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Contributing to BioBlend as a developer",
   "interactivityType": "mixed",
@@ -362,15 +362,24 @@
     <h1 data-toc-skip>Contributing to BioBlend as a developer</h1>
     
 
-    <div class="contributors-line">Authors: 
 
- <a href="/training-material/hall-of-fame/rikeshi/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/rikeshi" alt="Avatar">Erik Schill</a> <a href="/training-material/hall-of-fame/simonbray/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/simonbray" alt="Avatar">Simon Bray</a>
+    <div class="contributors-line">Authors: 
+<a href="/training-material/hall-of-fame/rikeshi/" class="contributor-badge contributor-rikeshi"><img src="https://avatars.githubusercontent.com/rikeshi?s=27" alt="Avatar">Erik Schill</a>
+
+
+<a href="/training-material/hall-of-fame/simonbray/" class="contributor-badge contributor-simonbray"><img src="https://avatars.githubusercontent.com/simonbray?s=27" alt="Avatar">Simon Bray</a>
+
+
+<a href="https://training.galaxyproject.org/training-material/topics/contributing/" class="contributor-badge contributor-newcontributors"><i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span>Add Contributions!</a>
 
 </div>
 
+
     <blockquote class="overview">
         <h3>Overview</h3>
+        
         <img alt="Creative Commons License" class="float-right" style="border-width:0; display: inline-block; margin:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" aria-hidden="true" />
+        
         <strong><i class="far fa-question-circle" aria-hidden="true"></i> Questions:</strong>
         <ul>
         
@@ -481,7 +490,9 @@
 
         <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jun 16, 2021 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
+            
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
+            
             <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">The GTN Framework is licensed under MIT</a>
         </div>
     </blockquote>
@@ -497,7 +508,7 @@
 
                 <h1 id="introduction">Introduction</h1>
 
-<p>BioBlend (<a class="citation" href="#Sloggett2013">Sloggett <i>et al.</i> 2013</a>) is a Python library to enable simple interaction with <span class="notranslate">Galaxy</span> (<a class="citation" href="#Afgan2018">Afgan <i>et al.</i> 2018</a>) via the command line or scripts.</p>
+<p>BioBlend (<span class="citation"><a href="#Sloggett2013">Sloggett <i>et al.</i> 2013</a></span>) is a Python library to enable simple interaction with <span class="notranslate">Galaxy</span> (<span class="citation"><a href="#Afgan2018">Afgan <i>et al.</i> 2018</a></span>) via the command line or scripts.</p>
 
 <p><span class="notranslate">Galaxy</span> is a data analysis platform for accessible, reproducible and transparent computational research. It includes a web interface through which users can design and perform tasks in a visual and interactive manner. The <span class="notranslate">Galaxy</span> server also exposes this functionality through its REST-based Application Programming Interface (API).</p>
 
@@ -647,7 +658,7 @@ We use the <a href="https://git-scm.com">git</a> versioning tool to download the
 
 <p>The tests for these methods are stored under <a href="https://github.com/galaxyproject/bioblend/tree/main/bioblend/_tests">tests/</a>. For example, the tests related to workflows are in the file <a href="https://github.com/galaxyproject/bioblend/blob/main/bioblend/_tests/TestGalaxyWorkflows.py">tests/Test<span class="notranslate">Galaxy</span>Workflows.py</a>.</p>
 
-<p>The classic approach for accessing the <span class="notranslate">Galaxy</span> API is using the various clients and their methods. Each of these methods corresponds to one of the API endpoints. They send a request to the <span class="notranslate">Galaxy</span> server and return a Python object representing the parsed JSON response. Alte<span class="notranslate">rna</span>tively, there is also BioBlend.objects (<a class="citation" href="#Leo2014">Leo <i>et al.</i> 2014</a>), which provides an object-oriented API. Interaction with the API occurs via wrapper classes. These wrappers represent entity instances and provide methods to interact with and manipulate them. For example, a wrapper could represent a single <span class="notranslate">workflow</span>.</p>
+<p>The classic approach for accessing the <span class="notranslate">Galaxy</span> API is using the various clients and their methods. Each of these methods corresponds to one of the API endpoints. They send a request to the <span class="notranslate">Galaxy</span> server and return a Python object representing the parsed JSON response. Alte<span class="notranslate">rna</span>tively, there is also BioBlend.objects (<span class="citation"><a href="#Leo2014">Leo <i>et al.</i> 2014</a></span>), which provides an object-oriented API. Interaction with the API occurs via wrapper classes. These wrappers represent entity instances and provide methods to interact with and manipulate them. For example, a wrapper could represent a single <span class="notranslate">workflow</span>.</p>
 
 <blockquote class="question">
   <h3 id="question-what-is-the-difference-between-bioblend-and-bioblendobjects"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> What is the difference between BioBlend and BioBlend.objects?</h3>
@@ -1409,39 +1420,9 @@ pytest <span class="nt">--override-ini</span> <span class="nv">log_cli_level</sp
 
                 
                 <h1 id="bibliography">References</h1>
-                <ol class="bibliography"><li><span id="Sloggett2013">Sloggett, C., N. Goonasekera, and E. Afgan, 2013 <b>BioBlend: automating pipeline analyses within Galaxy and CloudMan</b>. Bioinformatics 29: 1685–1686.</span>
-    
-    
-    <a href="https://doi.org/10.1093/bioinformatics/btt199">10.1093/bioinformatics/btt199</a>
-    
-    
-      <!-- prevent duplicate doi links -->
-      
-    
-
-</li>
-<li><span id="Leo2014">Leo, S., L. Pireddu, G. Cuccuru, L. Lianas, N. Soranzo <i>et al.</i>, 2014 <b>BioBlend.objects: metacomputing with Galaxy</b>. Bioinformatics 30: 2816–2817.</span>
-    
-    
-    <a href="https://doi.org/10.1093/bioinformatics/btu386">10.1093/bioinformatics/btu386</a>
-    
-    
-      <!-- prevent duplicate doi links -->
-      
-    
-
-</li>
-<li><span id="Afgan2018">Afgan, E., D. Baker, B. Batut, M. van den Beek, D. Bouvier <i>et al.</i>, 2018 <b>The Galaxy platform for accessible,  reproducible and collaborative biomedical analyses: 2018 update</b>. Nucleic Acids Research 46: W537–W544.</span>
-    
-    
-    <a href="https://doi.org/10.1093/nar/gky379">10.1093/nar/gky379</a>
-    
-    
-      <!-- prevent duplicate doi links -->
-      
-    
-
-</li></ol>
+                <ol class="bibliography"><li id="Sloggett2013">Sloggett, C., N. Goonasekera, and E. Afgan, 2013 <b>BioBlend: automating pipeline analyses within Galaxy and CloudMan</b>. Bioinformatics 29: 1685–1686. <a href="https://doi.org/10.1093/bioinformatics/btt199">10.1093/bioinformatics/btt199</a></li>
+<li id="Leo2014">Leo, S., L. Pireddu, G. Cuccuru, L. Lianas, N. Soranzo <i>et al.</i>, 2014 <b>BioBlend.objects: metacomputing with Galaxy</b>. Bioinformatics 30: 2816–2817. <a href="https://doi.org/10.1093/bioinformatics/btu386">10.1093/bioinformatics/btu386</a></li>
+<li id="Afgan2018">Afgan, E., D. Baker, B. Batut, M. van den Beek, D. Bouvier <i>et al.</i>, 2018 <b>The Galaxy platform for accessible,  reproducible and collaborative biomedical analyses: 2018 update</b>. Nucleic Acids Research 46: W537–W544. <a href="https://doi.org/10.1093/nar/gky379">10.1093/nar/gky379</a></li></ol>
                 
 
                 
@@ -1471,7 +1452,9 @@ pytest <span class="nt">--override-ini</span> <span class="nv">log_cli_level</sp
                 
 
                 <h1>Feedback</h1>
-                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.</p>
+                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.
+                <br>Did you use this material as a learner or student? Click the form below to leave feedback.<i class="fas fa-hand-point-down"></i>
+                </p>
 
                 <div id="feedback-button">
                     <img src="/training-material/shared/images/feedback.png" title="Click to activate" alt="Click here to load Google feedback frame" />

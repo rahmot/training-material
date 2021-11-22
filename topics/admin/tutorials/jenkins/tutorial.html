@@ -49,6 +49,41 @@
                         </a>
                         
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Languages">
+                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Languages
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            
+                              <strong class="dropdown-header">Automatic Translations</strong>
+            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
+                            Français
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
+                            日本語
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
+                            Español
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
+                            Português
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
+                            العربية
+                            </a>
+                            
+                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url" title="">
+                            And more!
+                            </a>
+                        </div>
+                    </li>
+
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
@@ -104,41 +139,6 @@
                 <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
             </a>
         
-
-        <div class="dropdown-item">
-            <div>
-                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
-            </div>
-
-            <div id="lang-selector">
-                
-                <strong>Automatic Translations</strong>
-
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
-                Français
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
-                日本語
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
-                Español
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
-                Português
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/jenkins/tutorial.html&edit-text=&act=url">
-                العربية
-                </a>
-                
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fjenkins%2Ftutorial.html&edit-text=&act=url" title="">
-                And more!
-                </a>
-            </div>
-        </div>
 
         <div class="dropdown-item">
             <div>
@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "2021-05-04 07:40:37 +0000",
+  "dateModified": "1970-01-01 00:33:41 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Automation with Jenkins",
   "interactivityType": "mixed",
@@ -435,15 +435,21 @@
     <h1 data-toc-skip>Automation with Jenkins</h1>
     
 
-    <div class="contributors-line">Authors: 
 
- <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Avatar">Helena Rasche</a>
+    <div class="contributors-line">Authors: 
+<a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a>
+
+
+<a href="https://training.galaxyproject.org/training-material/topics/contributing/" class="contributor-badge contributor-newcontributors"><i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span>Add Contributions!</a>
 
 </div>
 
+
     <blockquote class="overview">
         <h3>Overview</h3>
+        
         <img alt="Creative Commons License" class="float-right" style="border-width:0; display: inline-block; margin:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" aria-hidden="true" />
+        
         <strong><i class="far fa-question-circle" aria-hidden="true"></i> Questions:</strong>
         <ul>
         
@@ -714,7 +720,9 @@
 
         <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> May 4, 2021 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
+            
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
+            
             <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">The GTN Framework is licensed under MIT</a>
         </div>
     </blockquote>
@@ -884,7 +892,7 @@ This tutorial will specifically cover automation with Jenkins as that is one of 
 
 <p>Start by <strong>visiting your Jenkins instance</strong>, at <code class="language-plaintext highlighter-rouge">https://your-domain/jenkins</code></p>
 
-<figure id="figure-1"><img src="../../images/jenkins-01-welcome.png" alt="Welcome to Jenkins" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 1:</span> Welcome to Jenkins! This is how it looks once you've run the playbook and logged in. The menu on the left gives you some ability to configure Jenkins, below it is the job queue where running and queued jobs will appear. When you have configured some jobs, they will be visible in the central panel.</figcaption></figure>
+<figure id="figure-1"><img src="../../images/jenkins-01-welcome.png" alt="Welcome to Jenkins. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 1:</span> Welcome to Jenkins! This is how it looks once you've run the playbook and logged in. The menu on the left gives you some ability to configure Jenkins, below it is the job queue where running and queued jobs will appear. When you have configured some jobs, they will be visible in the central panel.</figcaption></figure>
 
 <h2 id="a-simple-job">A simple job</h2>
 
@@ -901,12 +909,12 @@ This tutorial will specifically cover automation with Jenkins as that is one of 
     <li>
       <p>Give your job a name like <code class="language-plaintext highlighter-rouge">my-project</code>, and select that it is a <code class="language-plaintext highlighter-rouge">freestyle project</code>, and click “OK”</p>
 
-      <figure id="figure-2"><img src="../../images/jenkins-02-create-job.png" alt="Create a job" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 2:</span> There are other types of jobs if you install plugins, but we will mostly use freestyle jobs as they are the most appropriate for our case.</figcaption></figure>
+      <figure id="figure-2"><img src="../../images/jenkins-02-create-job.png" alt="Create a job. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 2:</span> There are other types of jobs if you install plugins, but we will mostly use freestyle jobs as they are the most appropriate for our case.</figcaption></figure>
     </li>
     <li>
       <p>The job configuration interface is split into a few sections, visible in the tabs at the top of the page:</p>
 
-      <figure id="figure-3"><img src="../../images/jenkins-03-job-config.png" alt="Job configuration interface" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 3:</span> The job configuration interface, split into 'General', 'Source Code Management', 'Build Triggers', 'Build', and 'Post-build Actions'</figcaption></figure>
+      <figure id="figure-3"><img src="../../images/jenkins-03-job-config.png" alt="Job configuration interface. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 3:</span> The job configuration interface, split into 'General', 'Source Code Management', 'Build Triggers', 'Build', and 'Post-build Actions'</figcaption></figure>
     </li>
     <li>
       <p>In the <strong>Build Triggers</strong> section:</p>
@@ -945,7 +953,7 @@ env | sort
             </li>
           </ul>
 
-          <p><img src="../../images/jenkins-05-job1.png" alt="Executing a shell" loading="lazy" /></p>
+          <p><img src="../../images/jenkins-05-job1.png" alt="Executing a shell. " loading="lazy" /></p>
         </li>
       </ul>
 
@@ -963,11 +971,11 @@ env | sort
     <li>
       <p>Your job will appear in the <em>Build History</em> box at the left. <strong>Click</strong> the ball associated with your job, to see the console.</p>
 
-      <figure id="figure-4"><img src="../../images/jenkins-06-job1-run.png" alt="Seeing a Jenkins job's console" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 4:</span> The build history box lets you see the status of previous, running, and queued builds. The 'sun' icon indicates that all builds have been successful, it will become more cloudy/overcast if you experience failures. The 'trend' button allows you to visualise how quickly builds have run historically.</figcaption></figure>
+      <figure id="figure-4"><img src="../../images/jenkins-06-job1-run.png" alt="Seeing a Jenkins job's console. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 4:</span> The build history box lets you see the status of previous, running, and queued builds. The 'sun' icon indicates that all builds have been successful, it will become more cloudy/overcast if you experience failures. The 'trend' button allows you to visualise how quickly builds have run historically.</figcaption></figure>
 
       <p>Clicking the number will bring you to a job information page, where you can click “Console Output” to see the jobs output</p>
 
-      <figure id="figure-5"><img src="../../images/jenkins-07-job1-out.png" alt="Jenkins job output" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 5:</span> The output of your first Jenkins job. All jenkins jobs log both the commands that were run, and their outputs. Use this to see which step potentially failed.</figcaption></figure>
+      <figure id="figure-5"><img src="../../images/jenkins-07-job1-out.png" alt="Jenkins job output. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 5:</span> The output of your first Jenkins job. All jenkins jobs log both the commands that were run, and their outputs. Use this to see which step potentially failed.</figcaption></figure>
     </li>
   </ol>
 </blockquote>
@@ -1107,7 +1115,7 @@ ok: [gcc-3.training.<span class="notranslate">galaxy</span>project.eu]
         <li>
           <p>Configure the permissions like below. Clicking on the checked checkbox icon at the right will allow you to enable/disable all of the checkboxes for that row.</p>
 
-          <p><img src="../../images/jenkins-09-permissions.png" alt="Configuring matrix based permissions" loading="lazy" /></p>
+          <p><img src="../../images/jenkins-09-permissions.png" alt="Configuring matrix based permissions. " loading="lazy" /></p>
 
           <p>The matrix based security plugin is provided by a plugin, we installed this by setting the variable <code class="language-plaintext highlighter-rouge">jenkins_plugins: [matrix-auth]</code> in our group variables earlier.
 The checkboxes give you the ability to grant or deny permissions to certain classes of users. Each column is an individual permission, and you can hover over each column to get more information about what that permission allows.</p>
@@ -1369,7 +1377,9 @@ The checkboxes give you the ability to grant or deny permissions to certain clas
                 
 
                 <h1>Feedback</h1>
-                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.</p>
+                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.
+                <br>Did you use this material as a learner or student? Click the form below to leave feedback.<i class="fas fa-hand-point-down"></i>
+                </p>
 
                 <div id="feedback-button">
                     <img src="/training-material/shared/images/feedback.png" title="Click to activate" alt="Click here to load Google feedback frame" />
